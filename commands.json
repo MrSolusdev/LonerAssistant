@@ -1,0 +1,973 @@
+{
+  "applications": {
+    "открой браузер": {
+      "action": "open_app",
+      "params": [
+        "Google Chrome"
+      ],
+      "description": "Открывает Google Chrome"
+    },
+    "открой chrome": {
+      "action": "open_app",
+      "params": [
+        "Google Chrome"
+      ],
+      "description": "Открывает Google Chrome"
+    },
+    "открой safari": {
+      "action": "open_app",
+      "params": [
+        "Safari"
+      ],
+      "description": "Открывает Safari"
+    },
+    "открой firefox": {
+      "action": "open_app",
+      "params": [
+        "Firefox"
+      ],
+      "description": "Открывает Firefox"
+    },
+    "открой vscode": {
+      "action": "open_app",
+      "params": [
+        "Visual Studio Code"
+      ],
+      "description": "Открывает Visual Studio Code"
+    },
+    "открой код": {
+      "action": "open_app",
+      "params": [
+        "Visual Studio Code"
+      ],
+      "description": "Открывает Visual Studio Code"
+    },
+    "открой xcode": {
+      "action": "open_app",
+      "params": [
+        "Xcode"
+      ],
+      "description": "Открывает Xcode"
+    },
+    "открой терминал": {
+      "action": "open_app",
+      "params": [
+        "Terminal"
+      ],
+      "description": "Открывает Terminal"
+    },
+    "открой заметки": {
+      "action": "open_app",
+      "params": [
+        "Notes"
+      ],
+      "description": "Открывает Notes"
+    },
+    "открой почту": {
+      "action": "open_app",
+      "params": [
+        "Mail"
+      ],
+      "description": "Открывает Mail"
+    },
+    "открой notion": {
+      "action": "open_app",
+      "params": [
+        "Notion"
+      ],
+      "description": "Открывает Notion"
+    },
+    "открой календарь": {
+      "action": "open_app",
+      "params": [
+        "Calendar"
+      ],
+      "description": "Открывает Calendar"
+    },
+    "открой напоминания": {
+      "action": "open_app",
+      "params": [
+        "Reminders"
+      ],
+      "description": "Открывает Reminders"
+    },
+    "открой карту": {
+      "action": "open_app",
+      "params": [
+        "Maps"
+      ],
+      "description": "Открывает Maps"
+    },
+    "открой spotify": {
+      "action": "open_app",
+      "params": [
+        "Spotify"
+      ],
+      "description": "Открывает Spotify"
+    },
+    "открой telegram": {
+      "action": "open_app",
+      "params": [
+        "Telegram"
+      ],
+      "description": "Открывает Telegram"
+    },
+    "открой discord": {
+      "action": "open_app",
+      "params": [
+        "Discord"
+      ],
+      "description": "Открывает Discord"
+    },
+    "открой slack": {
+      "action": "open_app",
+      "params": [
+        "Slack"
+      ],
+      "description": "Открывает Slack"
+    },
+    "открой zoom": {
+      "action": "open_app",
+      "params": [
+        "Zoom"
+      ],
+      "description": "Открывает Zoom"
+    },
+    "открой figma": {
+      "action": "open_app",
+      "params": [
+        "Figma"
+      ],
+      "description": "Открывает Figma"
+    },
+    "открой sketch": {
+      "action": "open_app",
+      "params": [
+        "Sketch"
+      ],
+      "description": "Открывает Sketch"
+    },
+    "открой photoshop": {
+      "action": "open_app",
+      "params": [
+        "Adobe Photoshop"
+      ],
+      "description": "Открывает Adobe Photoshop"
+    },
+    "открой illustrator": {
+      "action": "open_app",
+      "params": [
+        "Adobe Illustrator"
+      ],
+      "description": "Открывает Adobe Illustrator"
+    },
+    "открой premiere": {
+      "action": "open_app",
+      "params": [
+        "Adobe Premiere Pro"
+      ],
+      "description": "Открывает Adobe Premiere Pro"
+    },
+    "открой after effects": {
+      "action": "open_app",
+      "params": [
+        "Adobe After Effects"
+      ],
+      "description": "Открывает Adobe After Effects"
+    },
+    "открой finder": {
+      "action": "open_app",
+      "params": [
+        "Finder"
+      ],
+      "description": "Открывает Finder"
+    },
+    "открой настройки": {
+      "action": "open_app",
+      "params": [
+        "System Preferences"
+      ],
+      "description": "Открывает System Preferences"
+    },
+    "открой activity monitor": {
+      "action": "open_app",
+      "params": [
+        "Activity Monitor"
+      ],
+      "description": "Открывает Activity Monitor"
+    }
+  },
+  "close_applications": {
+    "закрой браузер": {
+      "action": "kill_process",
+      "params": [
+        "Google Chrome"
+      ],
+      "description": "Закрывает Google Chrome"
+    },
+    "закрой терминал": {
+      "action": "kill_process",
+      "params": [
+        "Terminal"
+      ],
+      "description": "Закрывает Terminal"
+    },
+    "закрой chrome": {
+      "action": "kill_process",
+      "params": [
+        "Google Chrome"
+      ],
+      "description": "Закрывает Google Chrome"
+    },
+    "закрой safari": {
+      "action": "kill_process",
+      "params": [
+        "Safari"
+      ],
+      "description": "Закрывает Safari"
+    },
+    "закрой firefox": {
+      "action": "kill_process",
+      "params": [
+        "Firefox"
+      ],
+      "description": "Закрывает Firefox"
+    },
+    "закрой vscode": {
+      "action": "kill_process",
+      "params": [
+        "Visual Studio Code"
+      ],
+      "description": "Закрывает Visual Studio Code"
+    },
+    "закрой код": {
+      "action": "kill_process",
+      "params": [
+        "Visual Studio Code"
+      ],
+      "description": "Закрывает Visual Studio Code"
+    },
+    "закрой xcode": {
+      "action": "kill_process",
+      "params": [
+        "Xcode"
+      ],
+      "description": "Закрывает Xcode"
+    },
+    "закрой заметки": {
+      "action": "kill_process",
+      "params": [
+        "Notes"
+      ],
+      "description": "Закрывает Notes"
+    },
+    "закрой почту": {
+      "action": "kill_process",
+      "params": [
+        "Mail"
+      ],
+      "description": "Закрывает Mail"
+    },
+    "закрой spotify": {
+      "action": "kill_process",
+      "params": [
+        "Spotify"
+      ],
+      "description": "Закрывает Spotify"
+    },
+    "закрой telegram": {
+      "action": "kill_process",
+      "params": [
+        "Telegram"
+      ],
+      "description": "Закрывает Telegram"
+    },
+    "выключи discord": {
+      "action": "kill_process",
+      "params": [
+        "Discord"
+      ],
+      "description": "Закрывает Discord"
+    },
+    "закрой slack": {
+      "action": "kill_process",
+      "params": [
+        "Slack"
+      ],
+      "description": "Закрывает Slack"
+    },
+    "закрой zoom": {
+      "action": "kill_process",
+      "params": [
+        "Zoom"
+      ],
+      "description": "Закрывает Zoom"
+    },
+    "закрой figma": {
+      "action": "kill_process",
+      "params": [
+        "Figma"
+      ],
+      "description": "Закрывает Figma"
+    },
+    "закрой sketch": {
+      "action": "kill_process",
+      "params": [
+        "Sketch"
+      ],
+      "description": "Закрывает Sketch"
+    },
+    "закрой photoshop": {
+      "action": "kill_process",
+      "params": [
+        "Adobe Photoshop"
+      ],
+      "description": "Закрывает Adobe Photoshop"
+    },
+    "закрой illustrator": {
+      "action": "kill_process",
+      "params": [
+        "Adobe Illustrator"
+      ],
+      "description": "Закрывает Adobe Illustrator"
+    },
+    "закрой premiere": {
+      "action": "kill_process",
+      "params": [
+        "Adobe Premiere Pro"
+      ],
+      "description": "Закрывает Adobe Premiere Pro"
+    },
+    "закрой after effects": {
+      "action": "kill_process",
+      "params": [
+        "Adobe After Effects"
+      ],
+      "description": "Закрывает Adobe After Effects"
+    }
+  },
+  "websites": {
+    "открой youtube": {
+      "action": "open_url",
+      "params": [
+        "https://www.youtube.com"
+      ],
+      "description": "Открывает YouTube"
+    },
+    "открой github": {
+      "action": "open_url",
+      "params": [
+        "https://github.com"
+      ],
+      "description": "Открывает GitHub"
+    },
+    "открой reddit": {
+      "action": "open_url",
+      "params": [
+        "https://www.reddit.com"
+      ],
+      "description": "Открывает Reddit"
+    },
+    "открой бусти": {
+      "action": "open_url",
+      "params": [
+        "https://boosty.to"
+      ],
+      "description": "Открывает Boosty"
+    },
+    "погода": {
+      "action": "open_url",
+      "params": [
+        "https://www.gismeteo.ru/weather-tashkent-5331/10-days/"
+      ],
+      "description": "Открывает прогноз погоды"
+    },
+    "открой google": {
+      "action": "open_url",
+      "params": [
+        "https://www.google.com"
+      ],
+      "description": "Открывает Google"
+    },
+    "открой gmail": {
+      "action": "open_url",
+      "params": [
+        "https://mail.google.com"
+      ],
+      "description": "Открывает Gmail"
+    },
+    "открой google drive": {
+      "action": "open_url",
+      "params": [
+        "https://drive.google.com"
+      ],
+      "description": "Открывает Google Drive"
+    },
+    "открой google docs": {
+      "action": "open_url",
+      "params": [
+        "https://docs.google.com"
+      ],
+      "description": "Открывает Google Docs"
+    },
+    "открой google sheets": {
+      "action": "open_url",
+      "params": [
+        "https://sheets.google.com"
+      ],
+      "description": "Открывает Google Sheets"
+    },
+    "открой google slides": {
+      "action": "open_url",
+      "params": [
+        "https://slides.google.com"
+      ],
+      "description": "Открывает Google Slides"
+    },
+    "открой trello": {
+      "action": "open_url",
+      "params": [
+        "https://trello.com"
+      ],
+      "description": "Открывает Trello"
+    },
+    "открой netflix": {
+      "action": "open_url",
+      "params": [
+        "https://www.netflix.com"
+      ],
+      "description": "Открывает Netflix"
+    },
+    "открой twitch": {
+      "action": "open_url",
+      "params": [
+        "https://www.twitch.tv"
+      ],
+      "description": "Открывает Twitch"
+    },
+    "открой stack overflow": {
+      "action": "open_url",
+      "params": [
+        "https://stackoverflow.com"
+      ],
+      "description": "Открывает Stack Overflow"
+    },
+    "открой medium": {
+      "action": "open_url",
+      "params": [
+        "https://medium.com"
+      ],
+      "description": "Открывает Medium"
+    },
+    "открой dev.to": {
+      "action": "open_url",
+      "params": [
+        "https://dev.to"
+      ],
+      "description": "Открывает Dev.to"
+    },
+    "открой hackernews": {
+      "action": "open_url",
+      "params": [
+        "https://news.ycombinator.com"
+      ],
+      "description": "Открывает Hacker News"
+    },
+    "открой wikipedia": {
+      "action": "open_url",
+      "params": [
+        "https://www.wikipedia.org"
+      ],
+      "description": "Открывает Wikipedia"
+    },
+    "открой переводчик": {
+      "action": "open_url",
+      "params": [
+        "https://translate.google.com"
+      ],
+      "description": "Открывает Google Переводчик"
+    },
+    "открой карты": {
+      "action": "open_url",
+      "params": [
+        "https://maps.google.com"
+      ],
+      "description": "Открывает Google Maps"
+    }
+  },
+  "system": {
+    "заблокируй экран": {
+      "action": "system_command",
+      "params": [
+        "pmset displaysleepnow"
+      ],
+      "description": "Блокирует экран"
+    },
+    "открой папку загрузки": {
+      "action": "system_command",
+      "params": [
+        "open ~/Downloads"
+      ],
+      "description": "Открывает папку Downloads"
+    },
+    "открой документы": {
+      "action": "system_command",
+      "params": [
+        "open ~/Documents"
+      ],
+      "description": "Открывает папку Documents"
+    },
+    "очисти корзину": {
+      "action": "system_command",
+      "params": [
+        "osascript -e 'tell application \"Finder\" to empty the trash'"
+      ],
+      "description": "Очищает корзину"
+    },
+    "открой папку приложения": {
+      "action": "system_command",
+      "params": [
+        "open /Applications"
+      ],
+      "description": "Открывает папку Applications"
+    },
+    "открой рабочий стол": {
+      "action": "system_command",
+      "params": [
+        "open ~/Desktop"
+      ],
+      "description": "Открывает рабочий стол"
+    },
+    "открой изображения": {
+      "action": "system_command",
+      "params": [
+        "open ~/Pictures"
+      ],
+      "description": "Открывает папку Pictures"
+    },
+    "открой музыку": {
+      "action": "system_command",
+      "params": [
+        "open ~/Music"
+      ],
+      "description": "Открывает папку Music"
+    },
+    "открой фильмы": {
+      "action": "system_command",
+      "params": [
+        "open ~/Movies"
+      ],
+      "description": "Открывает папку Movies"
+    },
+    "усыпи компьютер": {
+      "action": "system_command",
+      "params": [
+        "pmset sleepnow"
+      ],
+      "description": "Переводит компьютер в режим сна"
+    },
+    "покажи батарею": {
+      "action": "system_command",
+      "params": [
+        "pmset -g batt"
+      ],
+      "description": "Показывает статус батареи"
+    },
+    "покажи wifi": {
+      "action": "system_command",
+      "params": [
+        "networksetup -getairportpower en0"
+      ],
+      "description": "Показывает статус Wi-Fi"
+    },
+    "включи wifi": {
+      "action": "system_command",
+      "params": [
+        "networksetup -setairportpower en0 on"
+      ],
+      "description": "Включает Wi-Fi"
+    },
+    "выключи wifi": {
+      "action": "system_command",
+      "params": [
+        "networksetup -setairportpower en0 off"
+      ],
+      "description": "Выключает Wi-Fi"
+    },
+    "покажи ip": {
+      "action": "system_command",
+      "params": [
+        "ifconfig | grep 'inet ' | grep -v 127.0.0.1"
+      ],
+      "description": "Показывает IP адрес"
+    },
+    "проверь интернет": {
+      "action": "system_command",
+      "params": [
+        "ping -c 3 google.com"
+      ],
+      "description": "Проверяет подключение к интернету"
+    },
+    "время": {
+      "action": "system_command",
+      "params": [
+        "date"
+      ],
+      "description": "Показывает текущее время"
+    },
+    "дата": {
+      "action": "system_command",
+      "params": [
+        "date '+%A, %B %d, %Y'"
+      ],
+      "description": "Показывает текущую дату"
+    },
+    "календарь": {
+      "action": "system_command",
+      "params": [
+        "cal"
+      ],
+      "description": "Показывает календарь"
+    },
+    "погода сейчас": {
+      "action": "system_command",
+      "params": [
+        "curl wttr.in"
+      ],
+      "description": "Показывает текущую погоду"
+    },
+    "выключи компьютер": {
+      "action": "system_command",
+      "params": [
+        "shutdown",
+        "-h",
+        "now"
+      ],
+      "description": "Выключает компьютер"
+    },
+    "перезагрузи компьютер": {
+      "action": "system_command",
+      "params": [
+        "shutdown",
+        "-r",
+        "now"
+      ],
+      "description": "Перезагружает компьютер"
+    },
+    "сделай скриншот": {
+      "action": "take_screenshot",
+      "params": [],
+      "description": "Делает скриншот экрана"
+    }
+  },
+  "music": {
+    "включи музыку": {
+      "action": "system_command",
+      "params": [
+        "open -a Music"
+      ],
+      "description": "Открывает приложение Music"
+    },
+    "пауза": {
+      "action": "system_command",
+      "params": [
+        "osascript -e 'tell application \"Music\" to pause'"
+      ],
+      "description": "Ставит музыку на паузу"
+    },
+    "воспроизведи музыку": {
+      "action": "system_command",
+      "params": [
+        "osascript -e 'tell application \"Music\" to play'"
+      ],
+      "description": "Воспроизводит музыку"
+    },
+    "следующий трек": {
+      "action": "system_command",
+      "params": [
+        "osascript -e 'tell application \"Music\" to next track'"
+      ],
+      "description": "Переключает на следующий трек"
+    },
+    "предыдущий трек": {
+      "action": "system_command",
+      "params": [
+        "osascript -e 'tell application \"Music\" to previous track'"
+      ],
+      "description": "Переключает на предыдущий трек"
+    }
+  },
+  "mouse": {
+    "кликни": {
+      "action": "click_mouse",
+      "params": [],
+      "description": "Кликает мышью в текущей позиции"
+    },
+    "пошевели мышкой": {
+      "action": "move_mouse",
+      "params": [],
+      "description": "Двигает мышью"
+    },
+    "мышка": {
+      "action": "move_mouse",
+      "params": [],
+      "description": "Двигает мышью"
+    }
+  },
+  "special": {
+    "скриншот": {
+      "action": "take_screenshot",
+      "params": [],
+      "description": "Делает скриншот"
+    },
+    "режим focus": {
+      "action": "focus_mode",
+      "params": [],
+      "description": "Включает режим фокуса"
+    },
+    "таймер 5 минут": {
+      "action": "timer_5_minutes",
+      "params": [],
+      "description": "Устанавливает таймер на 5 минут"
+    },
+    "таймер 10 минут": {
+      "action": "timer_10_minutes",
+      "params": [],
+      "description": "Устанавливает таймер на 10 минут"
+    },
+    "таймер 30 минут": {
+      "action": "timer_30_minutes",
+      "params": [],
+      "description": "Устанавливает таймер на 30 минут"
+    },
+    "сделай паузу": {
+      "action": "say",
+      "params": [
+        "Хорошо, отдохни немного. Я подожду."
+      ],
+      "description": "Отвечает на просьбу сделать паузу"
+    },
+    "курс валют": {
+      "action": "open_url",
+      "params": [
+        "https://www.google.com/search?q=курс+доллара"
+      ],
+      "description": "Открывает курс валют"
+    },
+    "новости": {
+      "action": "open_url",
+      "params": [
+        "https://news.google.com"
+      ],
+      "description": "Открывает Google News"
+    },
+    "спорт": {
+      "action": "open_url",
+      "params": [
+        "https://www.google.com/search?q=спорт+новости"
+      ],
+      "description": "Открывает спортивные новости"
+    },
+    "фильмы": {
+      "action": "open_url",
+      "params": [
+        "https://www.imdb.com"
+      ],
+      "description": "Открывает IMDb"
+    },
+    "музыка новинки": {
+      "action": "open_url",
+      "params": [
+        "https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF"
+      ],
+      "description": "Открывает топ-50 Spotify"
+    },
+    "подкасты": {
+      "action": "open_url",
+      "params": [
+        "https://open.spotify.com/genre/podcasts-page"
+      ],
+      "description": "Открывает подкасты Spotify"
+    },
+    "книги": {
+      "action": "open_url",
+      "params": [
+        "https://www.goodreads.com"
+      ],
+      "description": "Открывает Goodreads"
+    },
+    "игры": {
+      "action": "open_url",
+      "params": [
+        "https://store.steampowered.com"
+      ],
+      "description": "Открывает Steam"
+    },
+    "обучение": {
+      "action": "open_url",
+      "params": [
+        "https://www.coursera.org"
+      ],
+      "description": "Открывает Coursera"
+    },
+    "языки": {
+      "action": "open_url",
+      "params": [
+        "https://www.duolingo.com"
+      ],
+      "description": "Открывает Duolingo"
+    },
+    "фитнес": {
+      "action": "open_url",
+      "params": [
+        "https://www.youtube.com/results?search_query=фитнес+тренировка"
+      ],
+      "description": "Открывает фитнес видео на YouTube"
+    },
+    "медитация": {
+      "action": "open_url",
+      "params": [
+        "https://www.youtube.com/results?search_query=медитация"
+      ],
+      "description": "Открывает медитацию на YouTube"
+    },
+    "рецепты": {
+      "action": "open_url",
+      "params": [
+        "https://www.allrecipes.com"
+      ],
+      "description": "Открывает рецепты"
+    },
+    "путешествия": {
+      "action": "open_url",
+      "params": [
+        "https://www.booking.com"
+      ],
+      "description": "Открывает Booking.com"
+    },
+    "работа": {
+      "action": "open_url",
+      "params": [
+        "https://www.linkedin.com/jobs"
+      ],
+      "description": "Открывает вакансии на LinkedIn"
+    },
+    "фриланс": {
+      "action": "open_url",
+      "params": [
+        "https://www.upwork.com"
+      ],
+      "description": "Открывает Upwork"
+    },
+    "криптовалюта": {
+      "action": "open_url",
+      "params": [
+        "https://coinmarketcap.com"
+      ],
+      "description": "Открывает CoinMarketCap"
+    },
+    "акции": {
+      "action": "open_url",
+      "params": [
+        "https://finance.yahoo.com"
+      ],
+      "description": "Открывает Yahoo Finance"
+    },
+    "наука": {
+      "action": "open_url",
+      "params": [
+        "https://www.nature.com"
+      ],
+      "description": "Открывает Nature"
+    },
+    "технологии": {
+      "action": "open_url",
+      "params": [
+        "https://techcrunch.com"
+      ],
+      "description": "Открывает TechCrunch"
+    },
+    "дизайн": {
+      "action": "open_url",
+      "params": [
+        "https://dribbble.com"
+      ],
+      "description": "Открывает Dribbble"
+    },
+    "искусство": {
+      "action": "open_url",
+      "params": [
+        "https://www.behance.net"
+      ],
+      "description": "Открывает Behance"
+    },
+    "фотография": {
+      "action": "open_url",
+      "params": [
+        "https://500px.com"
+      ],
+      "description": "Открывает 500px"
+    },
+    "видео": {
+      "action": "open_url",
+      "params": [
+        "https://vimeo.com"
+      ],
+      "description": "Открывает Vimeo"
+    },
+    "социальные сети": {
+      "action": "open_url",
+      "params": [
+        "https://www.facebook.com"
+      ],
+      "description": "Открывает Facebook"
+    },
+    "инстаграм": {
+      "action": "open_url",
+      "params": [
+        "https://www.instagram.com"
+      ],
+      "description": "Открывает Instagram"
+    },
+    "твиттер": {
+      "action": "open_url",
+      "params": [
+        "https://twitter.com"
+      ],
+      "description": "Открывает Twitter"
+    },
+    "тикток": {
+      "action": "open_url",
+      "params": [
+        "https://www.tiktok.com"
+      ],
+      "description": "Открывает TikTok"
+    }
+  },
+  "assistant_control": {
+    "стоп": {
+      "action": "disable_commands",
+      "params": [],
+      "description": "Останавливает голосового помощника"
+    },
+    "включи команды": {
+      "action": "enable_commands",
+      "params": [],
+      "description": "Включает команды"
+    },
+    "спасибо": {
+      "action": "say",
+      "params": [
+        "Всегда пожалуйста, мой цифровой повелитель!"
+      ],
+      "description": "Отвечает на благодарность"
+    },
+    "молодец": {
+      "action": "say",
+      "params": [
+        "Стараюсь ради тебя, мой хозяин!"
+      ],
+      "description": "Отвечает на похвалу"
+    }
+  }
+}
