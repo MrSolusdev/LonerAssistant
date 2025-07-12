@@ -24,8 +24,8 @@
 ### Клонирование репозитория
 
 ```bash
-git clone https://github.com/MrSolus-Loner/lonerassistant.git
-cd lonerassistant
+git clone https://github.com/MrSolusdev/LonerAssistant.git
+cd LonerAssistant
 ```
 
 ### Установка зависимостей
